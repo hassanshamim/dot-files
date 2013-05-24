@@ -1,0 +1,64 @@
+Excluded URLs:
+http*://mail.google.com/*
+http*://www.google.com/reader/*
+https://drive.google.com/
+
+
+Custom Key Mappings:
+
+# Get rid of default qwerty bindings
+unmapAll
+
+# Colemak remapping
+map h scrollLeft
+map n scrollDown
+map e scrollUp
+map i scrollRight
+map gg scrollToTop
+map G scrollToBottom
+map I scrolltoRight
+map U scrollPageDown
+map u scrollPageUp
+map ' Marks.activateGotoMode
+map m Marks.activateCreateMode
+map gi focusInput
+map t LinkHints.activateMode
+map T LinkHints.activateModeToOpenInNewTab
+map k performFind
+map K performBackwardsFind
+map I goForward
+map E nextTab
+map N previousTab
+map gu goUp
+map gU goToRoot
+map gf nextFrame
+map ]] goNext
+map [[ goPrevious
+map r goBack
+map R goForward
+map X restoreTab
+map ? showHelp
+
+# Vomnibar settings
+map o Vomnibar.activate
+map O Vomnibar.activateInNewTab
+map f Vomnibar.activateTabSelection
+map B Vomnibar.activateBookmarksInNewTab
+map b Vomnibar.activateBookmarks
+
+# make more vim like
+map gs toggleViewSource
+map ' Marks.activateGotoMode
+map g9 lastTab
+map g0 firstTab
+map zh scrollToLeft
+map zl scrollToRight
+map p openCopiedUrlInCurrentTab
+map P openCopiedUrlInNewTab
+map yy copyCurrentUrl
+map yt LinkHints.activateModeToCopyLinkUrl
+map I enterInsertMode
+map / enterFindMode
+
+Chars used for link hints:
+arstdhneio
