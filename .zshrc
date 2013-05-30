@@ -21,6 +21,9 @@ alias gl='git log'
 alias gap='git add -p'
 alias gc='git checkout'
 
+#heroku aliases
+alias hdb='heroku pg:psql --app'
+alias hcon='heroku run console --app'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
