@@ -12,6 +12,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias pm='python manage.py'
 alias l='ls -1'
+alias ack='ack --smart-case'
 
 #Some aliases for git
 alias hist='git log --all --graph --pretty='\''[%C(cyan)%h%Creset]%C(bold cyan)%d%Creset %s'\'''
